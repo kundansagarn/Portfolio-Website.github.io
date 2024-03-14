@@ -221,13 +221,18 @@ i {
     border-radius: 10px;
 }
 
-span {
+/* span {
     color: rgb(108, 108, 38);
-}
+} */
 
 .skills-row {
     display: flex;
     justify-content: center;
+}
+
+.skill-content li{
+    font-size: 20px;
+    line-height: 2;
 }
 
 .skills-column {
