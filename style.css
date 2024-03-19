@@ -236,7 +236,7 @@ i {
 }
 
 .skills-column {
-    display: flex;
+    display: grid;
     border: 1px solid rgb(108, 108, 38);
     padding: 20px 20px;
     margin: 20px 20px;
