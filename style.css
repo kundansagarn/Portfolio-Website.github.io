@@ -4,7 +4,7 @@
 
 body {
     font-family: Poppins, sans-serif;
-    background-color: black;
+    background-color: #000;
     color: #fff;
 
 }
@@ -106,12 +106,13 @@ a:active{
 #btn1 {
     background-color: rgb(108, 108, 38);
     color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Poppins, sans-serif;
     font-size: 12px;
     padding: 10px;
     margin-top: 10px;
     border-radius: 8px;
     cursor: pointer;
+    border: none;
 }
 
 #btn1:hover{
@@ -164,12 +165,14 @@ a:active{
 #btn2 {
     background-color: rgb(108, 108, 38);
     color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-family: Poppins, sans-serif;
     font-size: 12px;
     padding: 10px;
     margin-top: 10px;
     border-radius: 8px;
     cursor: pointer;
+    border: none;
 }
 
 #btn2:hover{
@@ -249,6 +252,11 @@ i {
 #heading4 {
     font-size: 15px;
 }
+
+span {
+    color: rgb(108, 108, 38);
+}
+
 .contact-text #list {
     display: grid;
     text-decoration: none;
@@ -270,7 +278,6 @@ i {
 
 .contactme {
     display: flex;
-    /* justify-content: center; */
     margin-top: 50px;
     margin-left: 285px;
 }
@@ -285,9 +292,9 @@ i {
     flex-direction: column;
     display: flex;
     margin-left: 30px;
+    margin-top: 5px;
     align-items: center;
     text-decoration: none;
-    /* justify-content: center; */
 }
 
 .contact-form input[type ="name"] {
@@ -325,6 +332,7 @@ input[type="submit"]{
     background-color: rgb(108, 108, 38);
     color: #fff;
     cursor: pointer;
+    border: none;
 }
 input[type="submit"]:hover{
     background-color: #333;
