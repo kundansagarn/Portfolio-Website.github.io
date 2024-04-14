@@ -68,6 +68,7 @@ a {
     font-weight: 500;
     cursor: pointer;
     text-decoration: none;
+    align-items: center;
 }
 
 .nav .active #home a {
@@ -254,6 +255,7 @@ i {
     transform: scale(0.9);
     cursor: pointer;
     transition: .45s;
+    color: #fff;
 }
 
 /* span {
